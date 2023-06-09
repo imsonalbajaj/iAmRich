@@ -1,0 +1,16 @@
+PODS:
+  - Endless (0.0.1)
+
+DEPENDENCIES:
+  - Endless
+
+SPEC REPOS:
+  trunk:
+    - Endless
+
+SPEC CHECKSUMS:
+  Endless: 7347390291c9b03405e976f6f69be32eee0f629d
+
+PODFILE CHECKSUM: 3b479b67f333dc6d03d31b0bdbc05576a7de7989
+
+COCOAPODS: 1.12.1

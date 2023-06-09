@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043FD2EBC844FCC98F75784DE28C14A1 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ECEC2A56769745F6E8B5811CD2901C /* Indicator.swift */; };
+		173516963E0D6DCFB09E3E7BA8897D7A /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E89F48D69345BCA48A421C64FC8C66 /* Configuration.swift */; };
+		305000D694E9030B9FD76B17BED76F0F /* Pods-L.1.iAmRich-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDA80D1091FA62436E24310BC27C05 /* Pods-L.1.iAmRich-dummy.m */; };
+		36BBA6C53BDC9EEF3BE098926D204DA6 /* IndicatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C885DEA04D89689543559C66E4717 /* IndicatorProtocol.swift */; };
+		424D5E76358120AC6CBB15FEB9AF9593 /* IndicatorCellState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7622A8BEC548226F83B262B31C3E50EA /* IndicatorCellState.swift */; };
+		52B6AB95B3069A7957EA3B7C0BA075C1 /* IndicatorCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA3E234C338DD7EC4942A00E00C9306 /* IndicatorCellProtocol.swift */; };
+		710F522D1457912C19E07C721907724E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8451566CFD203E4841D151A5159E686F /* Endless-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 376F173259C5C4EAEAD4EE2BEFBC7089 /* Endless-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93A3C7855FC2B41960B40F28AF1F63C1 /* Endless-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E3A7D287F3473C932985A93E92FC43 /* Endless-dummy.m */; };
+		99B060F7B3FF8378CB629269EC1AB6DC /* Pods-L.1.iAmRich-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 258184F886E70D9C70DF1458455D911E /* Pods-L.1.iAmRich-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FB3B71868C78ECF2252AECC0862E5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A1562AA63B8326E47BA6A3D48691C851 /* IndicatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF89A9A2FDDC5EC0D0D036FE33999A7D /* IndicatorCell.swift */; };
+		A3A1A99858D7711F54FF1D06B7ED7987 /* MaxNumberOfDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6BBCE7C63A6DCDE48EB49DD0C48E0 /* MaxNumberOfDots.swift */; };
+		A54655713AEA7A5FC9D3B41DB7070DE9 /* UICollectionView+VisibleCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E963D8FC5E390D144152ED187C874 /* UICollectionView+VisibleCells.swift */; };
+		C9187E79C9E6EE1FABC7B891E1DA179C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA35B93A33EF53A7531B84EE86EE71C0 /* Constants.swift */; };
+		E0C613B99B9306E11BC311F98A4783A4 /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD960D6EDEAC3215E213B7BD01E0CC3 /* CALayer+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		518FA4F8E85DA2EDD0E738F8C454F202 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD82BA31694796641BB0875F27DB5230;
+			remoteInfo = Endless;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08E89F48D69345BCA48A421C64FC8C66 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Endless/Classes/public/Configuration.swift; sourceTree = "<group>"; };
+		1CA6BBCE7C63A6DCDE48EB49DD0C48E0 /* MaxNumberOfDots.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaxNumberOfDots.swift; path = Endless/Classes/public/MaxNumberOfDots.swift; sourceTree = "<group>"; };
+		218E963D8FC5E390D144152ED187C874 /* UICollectionView+VisibleCells.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+VisibleCells.swift"; path = "Endless/Classes/private/Extensions/UICollectionView+VisibleCells.swift"; sourceTree = "<group>"; };
+		233A3D4D9AB87F8DD5A872B572BA3EE2 /* Pods-L.1.iAmRich-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-L.1.iAmRich-Info.plist"; sourceTree = "<group>"; };
+		258184F886E70D9C70DF1458455D911E /* Pods-L.1.iAmRich-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-L.1.iAmRich-umbrella.h"; sourceTree = "<group>"; };
+		376F173259C5C4EAEAD4EE2BEFBC7089 /* Endless-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Endless-umbrella.h"; sourceTree = "<group>"; };
+		3DBDA80D1091FA62436E24310BC27C05 /* Pods-L.1.iAmRich-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-L.1.iAmRich-dummy.m"; sourceTree = "<group>"; };
+		4E537F9CDA03D2E0E60D1DE03D4C0130 /* Endless */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Endless; path = Endless.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7C885DEA04D89689543559C66E4717 /* IndicatorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndicatorProtocol.swift; path = Endless/Classes/public/IndicatorProtocol.swift; sourceTree = "<group>"; };
+		4FD960D6EDEAC3215E213B7BD01E0CC3 /* CALayer+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Extension.swift"; path = "Endless/Classes/private/Extensions/CALayer+Extension.swift"; sourceTree = "<group>"; };
+		533996A327F29356E1822BEB16E326F7 /* Pods-L.1.iAmRich.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-L.1.iAmRich.release.xcconfig"; sourceTree = "<group>"; };
+		68E3A7D287F3473C932985A93E92FC43 /* Endless-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Endless-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7622A8BEC548226F83B262B31C3E50EA /* IndicatorCellState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndicatorCellState.swift; path = Endless/Classes/private/IndicatorCellState.swift; sourceTree = "<group>"; };
+		9B4B00D46F5BFA56F2D17638A899ACD2 /* Pods-L.1.iAmRich-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-L.1.iAmRich-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FDD69E0F7465C50737A0B2FBDAC96FC /* Pods-L.1.iAmRich-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-L.1.iAmRich-acknowledgements.plist"; sourceTree = "<group>"; };
+		A3FEFE1C2EFA37593321649B97AF420B /* Pods-L.1.iAmRich.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-L.1.iAmRich.debug.xcconfig"; sourceTree = "<group>"; };
+		A7F1B54C3053C3A58E13A8A6DEC53FA5 /* Endless-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Endless-Info.plist"; sourceTree = "<group>"; };
+		A8CC9B385546B9109EF2A871A3E042FA /* Pods-L.1.iAmRich.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-L.1.iAmRich.modulemap"; sourceTree = "<group>"; };
+		AA35B93A33EF53A7531B84EE86EE71C0 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Endless/Classes/private/Constants.swift; sourceTree = "<group>"; };
+		CB14A21D21ECCF2054511C79BCCCA714 /* Pods-L.1.iAmRich */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-L.1.iAmRich"; path = Pods_L_1_iAmRich.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF0BFA372838C22633FAB01D4684618 /* Endless-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Endless-prefix.pch"; sourceTree = "<group>"; };
+		D1CC84DCB67DAFAFE2669ABE53902BC0 /* Pods-L.1.iAmRich-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-L.1.iAmRich-frameworks.sh"; sourceTree = "<group>"; };
+		DCFEFDDF2B570DD835223E3F47435CCF /* Endless.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Endless.modulemap; sourceTree = "<group>"; };
+		DF89A9A2FDDC5EC0D0D036FE33999A7D /* IndicatorCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndicatorCell.swift; path = Endless/Classes/private/IndicatorCell.swift; sourceTree = "<group>"; };
+		EDA3E234C338DD7EC4942A00E00C9306 /* IndicatorCellProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndicatorCellProtocol.swift; path = Endless/Classes/private/IndicatorCellProtocol.swift; sourceTree = "<group>"; };
+		F301582C91C6DF1AEEF4595C3DB21776 /* Endless.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Endless.debug.xcconfig; sourceTree = "<group>"; };
+		F5ECEC2A56769745F6E8B5811CD2901C /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Endless/Classes/public/Indicator.swift; sourceTree = "<group>"; };
+		F8261CBA77D9AED7DDB2A079C96C0602 /* Endless.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Endless.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47EEE4A8C3A7D8FC8127230A0DD55AE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710F522D1457912C19E07C721907724E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75B0CF1FF3E3A936B18D33FB089818B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0FB3B71868C78ECF2252AECC0862E5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A2424E81AE2082A6FA7FEB04677BA57 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCFEFDDF2B570DD835223E3F47435CCF /* Endless.modulemap */,
+				68E3A7D287F3473C932985A93E92FC43 /* Endless-dummy.m */,
+				A7F1B54C3053C3A58E13A8A6DEC53FA5 /* Endless-Info.plist */,
+				CFF0BFA372838C22633FAB01D4684618 /* Endless-prefix.pch */,
+				376F173259C5C4EAEAD4EE2BEFBC7089 /* Endless-umbrella.h */,
+				F301582C91C6DF1AEEF4595C3DB21776 /* Endless.debug.xcconfig */,
+				F8261CBA77D9AED7DDB2A079C96C0602 /* Endless.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Endless";
+			sourceTree = "<group>";
+		};
+		4ED2904AC7AF70BD96407B4EDB8E868F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				959C7EADAE89FAFE8B6794484C0B965D /* Pods-L.1.iAmRich */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		68A6ECBBE5D70756DF128C56BB76AF25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				974DA52A1507BB0108FA453599899167 /* Endless */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71BDCB5A9A8D54748694CCDD77C9CA6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E537F9CDA03D2E0E60D1DE03D4C0130 /* Endless */,
+				CB14A21D21ECCF2054511C79BCCCA714 /* Pods-L.1.iAmRich */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		959C7EADAE89FAFE8B6794484C0B965D /* Pods-L.1.iAmRich */ = {
+			isa = PBXGroup;
+			children = (
+				A8CC9B385546B9109EF2A871A3E042FA /* Pods-L.1.iAmRich.modulemap */,
+				9B4B00D46F5BFA56F2D17638A899ACD2 /* Pods-L.1.iAmRich-acknowledgements.markdown */,
+				9FDD69E0F7465C50737A0B2FBDAC96FC /* Pods-L.1.iAmRich-acknowledgements.plist */,
+				3DBDA80D1091FA62436E24310BC27C05 /* Pods-L.1.iAmRich-dummy.m */,
+				D1CC84DCB67DAFAFE2669ABE53902BC0 /* Pods-L.1.iAmRich-frameworks.sh */,
+				233A3D4D9AB87F8DD5A872B572BA3EE2 /* Pods-L.1.iAmRich-Info.plist */,
+				258184F886E70D9C70DF1458455D911E /* Pods-L.1.iAmRich-umbrella.h */,
+				A3FEFE1C2EFA37593321649B97AF420B /* Pods-L.1.iAmRich.debug.xcconfig */,
+				533996A327F29356E1822BEB16E326F7 /* Pods-L.1.iAmRich.release.xcconfig */,
+			);
+			name = "Pods-L.1.iAmRich";
+			path = "Target Support Files/Pods-L.1.iAmRich";
+			sourceTree = "<group>";
+		};
+		974DA52A1507BB0108FA453599899167 /* Endless */ = {
+			isa = PBXGroup;
+			children = (
+				4FD960D6EDEAC3215E213B7BD01E0CC3 /* CALayer+Extension.swift */,
+				08E89F48D69345BCA48A421C64FC8C66 /* Configuration.swift */,
+				AA35B93A33EF53A7531B84EE86EE71C0 /* Constants.swift */,
+				F5ECEC2A56769745F6E8B5811CD2901C /* Indicator.swift */,
+				DF89A9A2FDDC5EC0D0D036FE33999A7D /* IndicatorCell.swift */,
+				EDA3E234C338DD7EC4942A00E00C9306 /* IndicatorCellProtocol.swift */,
+				7622A8BEC548226F83B262B31C3E50EA /* IndicatorCellState.swift */,
+				4F7C885DEA04D89689543559C66E4717 /* IndicatorProtocol.swift */,
+				1CA6BBCE7C63A6DCDE48EB49DD0C48E0 /* MaxNumberOfDots.swift */,
+				218E963D8FC5E390D144152ED187C874 /* UICollectionView+VisibleCells.swift */,
+				1A2424E81AE2082A6FA7FEB04677BA57 /* Support Files */,
+			);
+			name = Endless;
+			path = Endless;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				68A6ECBBE5D70756DF128C56BB76AF25 /* Pods */,
+				71BDCB5A9A8D54748694CCDD77C9CA6A /* Products */,
+				4ED2904AC7AF70BD96407B4EDB8E868F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2BDF321E5A717BDCF6912C985F54138A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B060F7B3FF8378CB629269EC1AB6DC /* Pods-L.1.iAmRich-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A247C0797AC7B362054221FA7580E0D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8451566CFD203E4841D151A5159E686F /* Endless-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6D825284CE16BB554792E83DD064C226 /* Pods-L.1.iAmRich */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A8D0BCD7F51C2E3DA3DC868BCBDA45 /* Build configuration list for PBXNativeTarget "Pods-L.1.iAmRich" */;
+			buildPhases = (
+				2BDF321E5A717BDCF6912C985F54138A /* Headers */,
+				0E4384719C4B5C2459B6E4ED6BAD1C11 /* Sources */,
+				75B0CF1FF3E3A936B18D33FB089818B1 /* Frameworks */,
+				DF4848A9ED93CAC3C32E1D034EBBF401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FAD3A7442666110B605C96C4649248E /* PBXTargetDependency */,
+			);
+			name = "Pods-L.1.iAmRich";
+			productName = Pods_L_1_iAmRich;
+			productReference = CB14A21D21ECCF2054511C79BCCCA714 /* Pods-L.1.iAmRich */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD82BA31694796641BB0875F27DB5230 /* Endless */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E147F941A33B9730A89159B2BCE71E3E /* Build configuration list for PBXNativeTarget "Endless" */;
+			buildPhases = (
+				A247C0797AC7B362054221FA7580E0D8 /* Headers */,
+				5064C0F0FEF048B5BC277A7C33E2344C /* Sources */,
+				47EEE4A8C3A7D8FC8127230A0DD55AE3 /* Frameworks */,
+				899E4D3201C0782F552990EE52DEC134 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Endless;
+			productName = Endless;
+			productReference = 4E537F9CDA03D2E0E60D1DE03D4C0130 /* Endless */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 71BDCB5A9A8D54748694CCDD77C9CA6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD82BA31694796641BB0875F27DB5230 /* Endless */,
+				6D825284CE16BB554792E83DD064C226 /* Pods-L.1.iAmRich */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		899E4D3201C0782F552990EE52DEC134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4848A9ED93CAC3C32E1D034EBBF401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E4384719C4B5C2459B6E4ED6BAD1C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305000D694E9030B9FD76B17BED76F0F /* Pods-L.1.iAmRich-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5064C0F0FEF048B5BC277A7C33E2344C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0C613B99B9306E11BC311F98A4783A4 /* CALayer+Extension.swift in Sources */,
+				173516963E0D6DCFB09E3E7BA8897D7A /* Configuration.swift in Sources */,
+				C9187E79C9E6EE1FABC7B891E1DA179C /* Constants.swift in Sources */,
+				93A3C7855FC2B41960B40F28AF1F63C1 /* Endless-dummy.m in Sources */,
+				043FD2EBC844FCC98F75784DE28C14A1 /* Indicator.swift in Sources */,
+				A1562AA63B8326E47BA6A3D48691C851 /* IndicatorCell.swift in Sources */,
+				52B6AB95B3069A7957EA3B7C0BA075C1 /* IndicatorCellProtocol.swift in Sources */,
+				424D5E76358120AC6CBB15FEB9AF9593 /* IndicatorCellState.swift in Sources */,
+				36BBA6C53BDC9EEF3BE098926D204DA6 /* IndicatorProtocol.swift in Sources */,
+				A3A1A99858D7711F54FF1D06B7ED7987 /* MaxNumberOfDots.swift in Sources */,
+				A54655713AEA7A5FC9D3B41DB7070DE9 /* UICollectionView+VisibleCells.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FAD3A7442666110B605C96C4649248E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Endless;
+			target = CD82BA31694796641BB0875F27DB5230 /* Endless */;
+			targetProxy = 518FA4F8E85DA2EDD0E738F8C454F202 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		42248B364625945CBDAB334258392880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F301582C91C6DF1AEEF4595C3DB21776 /* Endless.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Endless/Endless-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Endless/Endless-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Endless/Endless.modulemap";
+				PRODUCT_MODULE_NAME = Endless;
+				PRODUCT_NAME = Endless;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		511716EB86CAB2923922212F9600ED44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3FEFE1C2EFA37593321649B97AF420B /* Pods-L.1.iAmRich.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-L.1.iAmRich/Pods-L.1.iAmRich-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-L.1.iAmRich/Pods-L.1.iAmRich.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70780D5E982D45B0D5134239A0E37ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 533996A327F29356E1822BEB16E326F7 /* Pods-L.1.iAmRich.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-L.1.iAmRich/Pods-L.1.iAmRich-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-L.1.iAmRich/Pods-L.1.iAmRich.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EB3C43D9A08179DE2A65C5421985E31D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8261CBA77D9AED7DDB2A079C96C0602 /* Endless.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Endless/Endless-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Endless/Endless-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Endless/Endless.modulemap";
+				PRODUCT_MODULE_NAME = Endless;
+				PRODUCT_NAME = Endless;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A8D0BCD7F51C2E3DA3DC868BCBDA45 /* Build configuration list for PBXNativeTarget "Pods-L.1.iAmRich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				511716EB86CAB2923922212F9600ED44 /* Debug */,
+				70780D5E982D45B0D5134239A0E37ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E147F941A33B9730A89159B2BCE71E3E /* Build configuration list for PBXNativeTarget "Endless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42248B364625945CBDAB334258392880 /* Debug */,
+				EB3C43D9A08179DE2A65C5421985E31D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_L_1_iAmRich {
+  umbrella header "Pods-L.1.iAmRich-umbrella.h"
+
+  export *
+  module * { export * }
+}
